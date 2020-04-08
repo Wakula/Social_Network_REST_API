@@ -1,10 +1,8 @@
 from django.urls import path, include
 from rest_framework_simplejwt.views import TokenRefreshView
 
-from api.apps.posts.views import (
-    LikeAnalyticsView,
-    LoginTrackTokenObtainPairView
-)
+from api.apps.accounts.views import LoginTrackTokenObtainPairView
+from api.apps.posts.views import LikeAnalyticsView
 
 
 urlpatterns = [
