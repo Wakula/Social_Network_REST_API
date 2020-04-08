@@ -16,7 +16,6 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 INSTALLED_APPS = [
     'api.apps.accounts',
     'api.apps.posts',
-    'api.apps.authentication',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
